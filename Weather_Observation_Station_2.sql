@@ -1,3 +1,3 @@
-# Result Form: lat lon
+/* Result Form: lat lon */
 SELECT ROUND(SUM(LAT_N), 2), ROUND(SUM(LONG_W), 2)
 FROM STATION;
